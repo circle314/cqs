@@ -1,0 +1,23 @@
+{
+    "name": "circle314/cqs",
+    "type": "library",
+    "description": "Circle314 Framework - CQS Component",
+    "keywords": ["circle314", "framework", "cqs"],
+    "homepage": "http://www.circle314.com/",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Kjartan Johansen",
+            "email": "kjartan@artofwar.cc"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Circle314\\Component\\CQS\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
